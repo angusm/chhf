@@ -1,0 +1,263 @@
+body{
+	
+	background-attachment: 	fixed;
+	background-image: 		url('../img/background.jpg');
+	background-position: 	center;
+	
+}
+
+div#content{
+	
+	border-color: 	#456;
+	border-style:	solid;
+	border-width: 	34px;
+	height:			100%;
+	width:			100% - 20px;
+	
+}
+
+div#contentBody{
+	
+	background-color: 	#456;
+	color:				#BDF;
+	font-family:		Arial, Helvetica, sans-serif;
+	font-size:			20px;
+	
+}
+
+div#contentHeader{
+	
+	height:				75px;
+	overflow:			hidden;
+	position:			relative;
+	width: 				100%;
+	
+}
+
+div#contentHeaderPadding{
+
+	background-color: 	#456;
+	display:			inline;
+	height:				75px;
+	position:			absolute;
+	width:				100%;
+	
+}
+
+div#header{
+	
+	display:			inline-block;
+	height:				150px;
+	overflow:			hidden;
+	width: 				100%;
+	position: 			relative;
+
+	border-color:			#000;
+	border-style:			solid;
+	border-bottom-width:	1px;
+	
+}
+
+div#innerContent{
+		
+	border-color: 		#000;
+	height:				100% - 5px;
+	width:				100% - 5px;
+	border-width: 		5px;
+	border-style:		solid;
+	
+}
+
+div#innerContentBorder{
+
+	border-color:	#000;
+	border-width:	1px;
+	border-style:	solid;	
+	padding:		14px;
+	
+}
+
+div#innerContentPadding{
+		
+	border-color: 		#456;
+	height:				100% - 5px;
+	width:				100% - 5px;
+	border-width: 		34px;
+	border-style:		solid;
+	
+}
+
+div.lastMenuSpacer{
+	
+	background-color: 	#456;
+	display:			inline;
+	height:				100%;
+	position:			absolute;
+	width:				100%;
+	
+}
+
+div#menu{
+	
+	display:		inline-block;
+	border-color:	#000;
+	border-style:	solid;
+	border-bottom-width:	1px;
+	border-top-width:	1px;
+	margin-top:		10px;
+	margin-bottom:	10px;
+	min-width:		200%;
+	overflow:		hidden;
+	position: 		relative;
+	height:			34px;
+	width:			100%;
+	
+}
+
+div#menuContainer{
+	
+	overflow:hidden;
+	width:100%;
+		
+}
+
+div.menuBar{
+	
+	background-color: 	#456;
+	height:				10px;
+	width:				100%;
+	
+}
+
+div.menuSpacer{
+
+	background-color: 	#456;
+	display:			inline-block;
+	height:				34px;
+	width:				2%;	
+	
+}
+
+div#outerContentBorder{
+
+	border-color:	#000;
+	border-style:	solid;
+	border-bottom-width:	1px;
+	border-top-width:	1px;
+	
+}
+
+div#rightHeaderPad{
+	
+	background-color: 	#456;
+	display:			inline;
+	height:				100%;
+	margin:				0px;
+	padding:			0px;
+	position:			absolute;
+	width: 				100%;
+	
+}
+
+img#contentHeaderImage{
+
+	display:			inline-block;	
+	margin:				0px;
+	padding:			0px;
+	
+}
+
+img#headerImage{
+
+	display:			inline-block;
+	border-color: 		#456;
+	border-left-width: 	45px;
+	border-style: 		solid;
+	margin:				0px;
+	padding:			0px;
+	
+}
+
+img.howWeDoIt{	
+}
+
+img.howYouCanHelp{
+}
+
+img.menuImage:hover {
+	
+	background-position: 0 0;
+
+}
+
+img.whatWeDo{
+}
+
+img.whyWeDoIt{	
+}
+
+.hidden{
+	display: none;
+}
+
+.whatWeDo{
+    display:	inline-block;
+    cursor:		pointer;
+}
+.whatWeDo:hover img{
+	opacity : .0;
+}
+.whatWeDo:hover{ 
+	background-image: url('../img/menu/highlighted/whatWeDo.png'); 
+}
+.whatWeDo img{
+	display: inline-block; 
+}
+
+.whyWeDoIt{
+    display:	inline-block;
+    cursor:		pointer;
+}
+.whyWeDoIt:hover img{
+	opacity : .0;
+}
+.whyWeDoIt:hover{ 
+	background-image: url('../img/menu/highlighted/whyWeDoIt.png'); 
+}
+.whyWeDoIt img{
+	display: inline-block; 
+}
+
+.howWeDoIt{
+    display:	inline-block;
+    cursor:		pointer;
+}
+.howWeDoIt:hover img{
+	opacity : .0;
+}
+.howWeDoIt:hover{ 
+	background-image: url('../img/menu/highlighted/howWeDoIt.png'); 
+}
+.howWeDoIt img{
+	display: inline-block; 
+}
+
+.howYouCanHelp{
+    display:	inline-block;
+    cursor:		pointer;
+}
+.howYouCanHelp:hover img{
+	opacity : .0;
+}
+.howYouCanHelp:hover{ 
+	background-image: url('../img/menu/highlighted/howYouCanHelp.png'); 
+}
+.howYouCanHelp img{
+	display: inline-block; 
+}
+
+
+
+
+
+
