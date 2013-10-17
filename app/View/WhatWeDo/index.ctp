@@ -1,6 +1,6 @@
 <?php
 echo '<div id="contentHeader">';
-	echo $this->Html->image( 'whatWeDo.png', array( 'id' => 'contentHeaderImage' ) );
+	echo '<div id="contentHeaderImage" class="whatWeDoHeader"></div>';
 	echo '<div id="contentHeaderPadding"></div>';
 echo '</div>';
 ?>

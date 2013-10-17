@@ -1,7 +1,7 @@
 body{
 	
 	background-attachment: 	fixed;
-	background-image: 		url('../img/background.jpg');
+	background-image: 		url('../img/ie/background.jpg');
 	background-position: 	center;
 	
 }
@@ -19,7 +19,7 @@ div#content{
 div#contentBody{
 	
 	background-color: 	#456;
-	color:				#BDF;
+	color:				#FFF;
 	font-family:		Arial, Helvetica, sans-serif;
 	font-size:			20px;
 	
@@ -44,6 +44,21 @@ div#contentHeaderPadding{
 	
 }
 
+div#contentHeaderImage.whatWeDoHeader{
+
+	width: 675px;
+	height: 75px;
+	background-image:	url( '../img/ie/whatWeDo.png' );	
+}
+
+div#contentHeaderImage{
+
+	display:			inline-block;	
+	margin:				0px;
+	padding:			0px;
+	
+}
+
 div#header{
 	
 	display:			inline-block;
@@ -56,6 +71,25 @@ div#header{
 	border-style:			solid;
 	border-bottom-width:	1px;
 	
+}
+
+div#headerImageLeftPadding{
+	
+	display:			inline-block;
+	background-color:   #456;
+	width: 				45px;
+	height:				100%;
+	
+}
+
+div#headerImage{
+
+	display:			inline-block;
+	margin:				0px;
+	padding:			0px;
+	background-image: 	url('../img/ie/header.png');
+	width:				412px;
+	height:				150px;
 }
 
 div#innerContent{
@@ -159,14 +193,6 @@ div#rightHeaderPad{
 	
 }
 
-img#contentHeaderImage{
-
-	display:			inline-block;	
-	margin:				0px;
-	padding:			0px;
-	
-}
-
 img#headerImage{
 
 	display:			inline-block;
@@ -201,60 +227,44 @@ img.whyWeDoIt{
 }
 
 .whatWeDo{
-    display:	inline-block;
-    cursor:		pointer;
-}
-.whatWeDo:hover img{
-	opacity : .0;
+	background-image: 	url('../img/ie/menu/whatWeDo.png');
+    cursor:				pointer;
+    display:			inline-block;
+	height:				34px;
+	width:				130px;
 }
 .whatWeDo:hover{ 
-	background-image: url('../img/menu/highlighted/whatWeDo.png'); 
-}
-.whatWeDo img{
-	display: inline-block; 
+	background-image: url('../img/ie/menu/highlighted/whatWeDo.png'); 
 }
 
 .whyWeDoIt{
-    display:	inline-block;
-    cursor:		pointer;
-}
-.whyWeDoIt:hover img{
-	opacity : .0;
+	background-image: 	url('../img/ie/menu/whyWeDoIt.png');
+    cursor:				pointer;
+    display:			inline-block;
+	height:				34px;
+	width:				145px;
 }
 .whyWeDoIt:hover{ 
-	background-image: url('../img/menu/highlighted/whyWeDoIt.png'); 
-}
-.whyWeDoIt img{
-	display: inline-block; 
+	background-image: url('../img/ie/menu/highlighted/whyWeDoIt.png'); 
 }
 
+
 .howWeDoIt{
-    display:	inline-block;
-    cursor:		pointer;
-}
-.howWeDoIt:hover img{
-	opacity : .0;
-}
-.howWeDoIt:hover{ 
-	background-image: url('../img/menu/highlighted/howWeDoIt.png'); 
-}
-.howWeDoIt img{
-	display: inline-block; 
+	background-image: 	url('../img/ie/menu/howWeDoIt.png');
+    cursor:				pointer;
+    display:			inline-block;
+	height:				34px;
+	width:				144px;
 }
 
 .howYouCanHelp{
-    display:	inline-block;
-    cursor:		pointer;
+	background-image: 	url('../img/ie/menu/howYouCanHelp.png');
+    cursor:				pointer;
+    display:			inline-block;
+	height:				34px;
+	width:				199px;
 }
-.howYouCanHelp:hover img{
-	opacity : .0;
-}
-.howYouCanHelp:hover{ 
-	background-image: url('../img/menu/highlighted/howYouCanHelp.png'); 
-}
-.howYouCanHelp img{
-	display: inline-block; 
-}
+
 
 
 

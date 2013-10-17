@@ -9,17 +9,17 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo $cakeDescription ?>:
-		<?php echo $title_for_layout; ?>
+		Chilliwack Housing for Homeless Foundation
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('reset');
 		echo $this->Html->css('ie-default');
-		echo '<![if !IE]>';
-		echo $this->Html->css('default');
-		echo '<![endif]>';
+		//echo '<![if !IE]>';
+		//echo $this->Html->css('default');
+		//echo '<![endif]>';
+		echo '<link rel="stylesheet" media="screen and (min-device-width: 900px)" href="/chhf/css/default.css" />';
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -42,7 +42,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
             echo '<div class="menuSpacer"></div>';
 			echo $this->Html->tag(
 								'a',
-								$this->Html->image( 'menu/whatWeDo.png', array( 'class' => 'menuImage whatWeDo' ) ),
+								'',
 								array(
 									'class' => 'menuItem whatWeDo',
 									'href'	=> $this->Html->url(array(
@@ -53,7 +53,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
             echo '<div class="menuSpacer"></div>';
 			echo $this->Html->tag(
 								'a',
-								$this->Html->image( 'menu/whyWeDoIt.png', array( 'class' => '' ) ),
+								'',
 								array(
 									'class' => 'menuItem whyWeDoIt',
 									'href'	=> $this->Html->url(array(
@@ -64,7 +64,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
             echo '<div class="menuSpacer"></div>';
 			echo $this->Html->tag(
 								'a',
-								$this->Html->image( 'menu/howWeDoIt.png', array( 'class' => 'menuImage howWeDoIt' ) ),
+								'',
 								array(
 									'class' => 'menuItem howWeDoIt',
 									'href'	=> $this->Html->url(array(
@@ -75,7 +75,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
             echo '<div class="menuSpacer"></div>';
 			echo $this->Html->tag(
 								'a',
-								$this->Html->image( 'menu/howYouCanHelp.png', array( 'class' => 'menuImage howYouCanHelp' ) ),
+								'',
 								array(
 									'class' => 'menuItem howYouCanHelp',
 									'href'	=> $this->Html->url(array(
